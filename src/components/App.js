@@ -6,7 +6,7 @@ const App = () => {
   const [counter, setCounter] = useState(0);
   return (
     <div>
-        <p>Button clicked {counter} times.</p>
+        <p>Button clicked {counter} times</p>
         <button onClick={() => setCounter(counter + 1)}>Click me</button>
     </div>
   )
